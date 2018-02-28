@@ -90,13 +90,3 @@ class HsCalendar {
 }
 
 module.exports = HsCalendar
-
-const hs = new HsCalendar(true)
-
-hs.getWeek().then(
-    (res) => {
-        console.log(res)
-    }, (err) => {
-        console.log(err)
-    }
-)
