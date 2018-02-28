@@ -2,9 +2,9 @@
   "name": "hs-calendar",
   "version": "1.0.0",
   "description": "HorribleSubs calendar scraper",
-  "main": "index.js",
+  "main": "HsCalendar.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard HsCalendar.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-standard": "^10.1.2",
+    "standard": "^11.0.0"
   }
 }
