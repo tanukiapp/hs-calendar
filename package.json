@@ -1,0 +1,23 @@
+{
+  "name": "hs-calendar",
+  "version": "1.0.0",
+  "description": "HorribleSubs calendar scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanukiapp/hs-calendar.git"
+  },
+  "author": "Juanjo Salvador",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanukiapp/hs-calendar/issues"
+  },
+  "homepage": "https://github.com/tanukiapp/hs-calendar#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
