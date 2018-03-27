@@ -88,7 +88,7 @@ class HsCalendar {
 
   /**
    * Get the schedule for the week with the time of the day
-   * sample output from testing the method:
+   * extract from testing the method:
    * 
     [{
       "day": "Monday",
