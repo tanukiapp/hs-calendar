@@ -105,7 +105,7 @@ class HsCalendar {
     return this._axios.get()
     .then(res => {
       let $ = cheerio.load(res.data)
-      let days = $(".entry-content h2").toArray().slice(0, -1)
+      let days = $(".entry-content h2.weekday").toArray().slice(0, -1)
       let tables = $(".entry-content table").toArray().slice(0, -1)
       return days.map(el => $(el).text())
       .map((day, index) => {
